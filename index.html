@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sam Christian Ugmad | Full Stack Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">SCU.dev</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Proficiency</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Highlights</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="hero" class="d-flex align-items-center bg-light">
+        <div class="container text-center py-5 mt-5">
+            <img src="images/main_profile.jpg" height="300" alt="Sam Christian Ugmad" class="rounded-pill shadow mb-4">
+            
+            <h1 class="display-3 fw-bold text-dark">Sam Christian Ugmad</h1>
+            <p class="lead text-muted mb-4">CS Student @ University of Mindanao</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#projects" class="btn btn-primary btn-lg">View Projects</a>
+                <a href="#about" class="btn btn-outline-dark btn-lg">About Me</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="row align-items-center">
+                <div class="col-lg-12 text-center">
+                    <h2 class="display-5 fw-bold mb-4">Introduction</h2>
+                    <p class="bio-text">
+                        I am a Computer Science student who prioritizes directness and transparency. My approach to software development and my work ethic in general is defined by an aggressive focus on not taking any bullshit from anyone.
+                    </p>
+                    <p class="bio-text">
+                        I am a learner. I approach challenges with the intent to understand how and why. I maintain a realistic view of my current proficiency, focusing on building a robust foundation in computer science but also to be a more rounded-out human being overall.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-5 bg-light">
+        <div class="container py-4">
+            <h2 class="text-center mb-5 fw-bold">Technical Proficiency</h2>
+            <div class="table-responsive shadow-sm">
+                <table class="table table-hover table-bordered align-middle bg-white">
+                    <thead class="table-primary text-center">
+                        <tr>
+                            <th scope="col" style="width: 20%;">Domain</th>
+                            <th scope="col" style="width: 30%;">Languages & Tools</th>
+                            <th scope="col" style="width: 50%;">Practical Application</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="fw-bold text-center">Backend & Logic</td>
+                            <td>
+                                <span class="badge bg-secondary">Python</span>
+                                <span class="badge bg-secondary">Java</span>
+                                <span class="badge bg-secondary">PHP</span>
+                                <span class="badge bg-secondary">Ruby</span>
+                            </td>
+                            <td>utilized for algorithm implementation (Sorting/Searching), desktop application logic, and server-side processing.</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold text-center">Frontend & UI</td>
+                            <td>
+                                <span class="badge bg-info text-dark">Flutter/Dart</span>
+                                <span class="badge bg-info text-dark">HTML/CSS</span>
+                                <span class="badge bg-info text-dark">Figma</span>
+                            </td>
+                            <td>Mobile exploration introduced to me by accident; UI/UX and web development as part of current coursework.</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold text-center">Systems & Theory</td>
+                            <td>
+                                <span class="badge bg-dark">MySQL</span>
+                                <span class="badge bg-dark">JFLAP</span>
+                                <span class="badge bg-dark">Automata</span>
+                            </td>
+                            <td>Database management for booking systems and theoretical compiler design (DFA/NFA/PDA construction).</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="row mb-5 text-center">
+                <div class="col-12">
+                    <h2 class="fw-bold text-uppercase">Works & Highlights</h2>
+                    <p class="text-muted w-75 mx-auto">Academic and personal projects</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm project-card">
+                        <div class="card-header bg-dark text-white d-flex justify-content-between">
+                            <span>Desktop Application</span>
+                            <small>Python + Tkinter</small>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold">ScreenPass: Cinema Management</h4>
+                            <p class="card-text mt-3">Full desktop solution for cinema operations. Includes a visual seat-booking kiosk for customers and an admin dashboard for schedule management.</p>
+                            <h6 class="text-primary mt-3 small fw-bold">Features:</h6>
+                            <ul class="small">
+                                <li>Visual Kiosk: Seating chart for point-and-click booking.</li>
+                                <li>Admin Dashboard: Panel to manage movie schedules and pricing.</li>
+                                <li>Database Integration: MySQL connectivity for persistent records.</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="https://github.com/sgmad/cinema-ticketing-system" target="_blank" class="btn btn-outline-primary w-100">View Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm project-card">
+                        <div class="card-header bg-success text-white d-flex justify-content-between">
+                            <span>Utility Tool</span>
+                            <small>Python Logic</small>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold">RPG Roller: Dynamic RNG</h4>
+                            <p class="card-text mt-3">Solves "mental math" fatigue in complex TTRPGs. Supports custom dice sizes (d15, d1000) and multi-row modifier stacking.</p>
+                            <h6 class="text-success mt-3 small fw-bold">Features:</h6>
+                            <ul class="small">
+                                <li>Custom Faces: Handling for non-standard dice sizes.</li>
+                                <li>Modifier Stacking: Dynamic handling for labeled rows.</li>
+                                <li>UI Snapping: Geometry management to eliminate dead space.</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="https://github.com/sgmad/rpg-roller" target="_blank" class="btn btn-outline-success w-100">View Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm project-card">
+                        <div class="card-header bg-warning text-dark d-flex justify-content-between">
+                            <span>Java Application</span>
+                            <small>Java Swing</small>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold">LMS: Library Management</h4>
+                            <p class="card-text mt-3">Object-Oriented project managing asset lifecycles. Implements custom search and sorting algorithms for retrieval.</p>
+                            <h6 class="text-warning text-dark mt-3 small fw-bold">Features:</h6>
+                            <ul class="small">
+                                <li>Binary search implementation for rapid book retrieval.</li>
+                                <li>Design linking User IDs with borrowed assets.</li>
+                                <li>Custom-painted GUI components.</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="https://github.com/sgmad/library-management-system" target="_blank" class="btn btn-outline-warning text-dark w-100">View Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm project-card">
+                        <div class="card-header bg-danger text-white d-flex justify-content-between">
+                            <span>Compiler Theory</span>
+                            <small>Automata & JFLAP</small>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold">Oversimplified: Human Compiler</h4>
+                            <p class="card-text mt-3">Theoretical project exploring compiler front-ends. Simulates Lexical and Syntax Analysis via automata models.</p>
+                            <h6 class="text-danger mt-3 small fw-bold">Features:</h6>
+                            <ul class="small">
+                                <li>DFA construction to tokenize plain English inputs.</li>
+                                <li>Pushdown Automata to verify grammatical structure.</li>
+                                <li>Pipeline visualization via JFLAP models.</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="https://github.com/sgmad/oversimplified" target="_blank" class="btn btn-outline-danger w-100">View Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="contact" class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-primary mb-3 shadow">
+                        <div class="card-header bg-primary text-white text-center py-3">
+                            <h3 class="mb-0 h5 fw-bold text-uppercase">Initiate Collaboration</h3>
+                        </div>
+                        <div class="card-body p-5">
+                            <p class="card-text text-center mb-4">Whether it's a personal question, or a genuine inquiry for collaboration, I'm open to connecting:</p>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-bold small text-uppercase">First Name</label>
+                                        <input type="text" class="form-control" placeholder="Required" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-bold small text-uppercase">Last Name</label>
+                                        <input type="text" class="form-control" placeholder="Required" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label fw-bold small text-uppercase">Email Address</label>
+                                        <input type="email" class="form-control" placeholder="name@email.com" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label fw-bold small text-uppercase">Inquiry Type</label>
+                                        <select class="form-select">
+                                            <option selected>General Inquiry</option>
+                                            <option value="1">Project Collaboration</option>
+                                            <option value="2">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label fw-bold small text-uppercase">Message Details</label>
+                                        <textarea class="form-control" rows="5" placeholder="Specify your request..."></textarea>
+                                    </div>
+                                    <div class="col-12 text-center mt-4">
+                                        <button type="submit" class="btn btn-primary btn-lg px-5 fw-bold text-uppercase">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4 mt-auto">
+        <div class="container text-center">
+            <p class="mb-2">© 2026 Sam Christian Ugmad</p>
+            <div class="small text-muted">
+                <a href="https://github.com/sgmad" class="text-secondary text-decoration-none mx-2">GitHub</a> | 
+                <a href="https://www.linkedin.com/in/sam-christian-ugmad-7aaa0a253/" class="text-secondary text-decoration-none mx-2">LinkedIn</a> | 
+                <a href="mailto:scmad@proton.me" class="text-secondary text-decoration-none mx-2">ProtonMail</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

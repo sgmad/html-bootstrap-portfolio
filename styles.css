@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.8;
+    color: #333;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #0d2c54 !important; 
+    border-bottom: 3px solid #0056b3;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+#hero {
+    min-height: 80vh;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.rounded-pill {
+    border: 5px solid #0d2c54;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+.rounded-pill:hover {
+    transform: scale(1.05);
+}
+
+.bio-text {
+    font-size: 1.15rem;
+    color: #555;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #e0e0e0;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.15) !important;
+    border-color: #0056b3;
+}
+
+.card-header {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.table-primary th {
+    background-color: #0d2c54;
+    color: white;
+    font-weight: 600;
+    border-color: #0d2c54;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 0 0.25rem rgba(13, 44, 84, 0.25);
+}
+
+.form-label {
+    color: #0d2c54;
+}
+
+.btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-primary:hover {
+    background-color: #004494;
+    border-color: #004494;
+}
+
+.btn-outline-primary {
+    color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0056b3;
+    color: white;
+}
